@@ -150,13 +150,13 @@
       </section>
       <!-- contact form  -->
        <section>
-        <div class="py-16 max-w-6xl mx-auto">
+        <div class="py-16 max-w-7xl mx-auto">
             <div class="text-center mb-16">
                 <h2 class="font-extrabold text-4xl my-7">Contact With Us</h2>
                 <p class="max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
             <div class="flex flex-col md:flex-row gap-8 items-center">
-                <div class="grid grid-cols-2 text-center items-center">
+                <div class="grid grid-cols-1 md:grid-cols-2 text-center items-center">
                     <div class="p-14 bg-[#dad7d7] border-b-[1px] border-r-[1px] border-[#4140401a]">
                         <img src="./images/location.png" alt="" class="mx-auto mb-3">
                         <h4 class="font-extrabold mb-3">Address</h4>
@@ -178,15 +178,45 @@
                         <p>Mon-Fri: 9AM to 5PM <br>Sunday: 9AM to 1 PM</p>
                     </div>
                 </div>
-                <div class="flex flex-col gap-7">
+                <div class="flex flex-col gap-7 w-full md:w-1/2">
                     <input type="text" placeholder="Your Name" class="bg-[#d3d0d0] py-6 px-7 rounded-lg max-w-xl w-full">
                     <input type="email" placeholder="Your Email" class="bg-[#d3d0d0] py-6 px-7 rounded-lg max-w-xl w-full">
                     <input type="text" placeholder="Subject" class="bg-[#d3d0d0] py-6 px-7 rounded-lg max-w-xl w-full">
-                    <textarea type="text" placeholder="Your Message" class="bg-[#d3d0d0] py-6 px-7 rounded-lg w-full">
-                    <button class="bg-[#B68C5A] px-6 rounded-lg max-w-xl w-full">Send Message</button>
+                    <textarea name="" id="" class="bg-[#d3d0d0] py-6 px-7 rounded-lg max-w-xl w-full">Your Message</textarea>
+                    <button class="bg-[#B68C5A] text-white font-bold py-6 px-7 rounded-lg max-w-xl w-full hover:bg-[#99764b]">Send Message</button>        
                 </div>
             </div>
         </div>
        </section>
+       <!-- footer  -->
+        <footer class="bg-black">
+            <div class="py-16 max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="ml-8 md:ml-0">
+                    <img src="./images/logo.png" alt="" class="mb-3">
+                    <p class="text-white">There are many variations <br>of passages of Lorem Ipsum <br>available,but the majority have<br> suffered alteration in some form,<br> by injected humour.</p>
+                </div>
+                <div class="text-white">
+                    <h4 class="font-bold text-2xl mb-3">Usefull Link</h4>
+                    <ul>
+                        <li class="mb-2"><a href="#">About Us</a></li>
+                        <li class="mb-2"><a href="#">Cases</a></li>
+                        <li class="mb-2"><a href="#">Blog</a></li>
+                        <li class="mb-2"><a href="#">Contact Us</a></li>
+                    </ul>                                              
+                </div>
+                <div class="text-white ml-8 md:ml-0">
+                    <h3 class="font-bold text-2xl mb-3">Contact Now</h3>
+                    <p class="mb-2">555 4th 5t NW, Washington <br> DC 20530, United States</p>
+                    <p class="mb-2">+88 01750 000 000 <br> +88 01750 000 000</p>
+                    <p class="mb-2">info@gmail.com <br>info@gmail.com</p>
+                </div>
+                <div class="text-white">
+                    <h3 class="font-bold text-2xl mb-3">Subscribe</h3>
+                    <p class="mb-5">Subscribe for our latest & Articles. <br>We Won't Give You Spam Mails</p>
+                    <div class="text-left text-black flex"><input type="email" placeholder="Your Email" class="bg-white p-1.5 rounded-l-lg"><img src="./images/Group 42.png" alt="" class="w-14 h-14"></div>
+                    
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
